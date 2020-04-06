@@ -1,0 +1,206 @@
+body {
+    background-color:#f8f8f8;
+    margin: 0;
+  }
+
+
+  .italic
+  {
+   text-align:center;
+   font-size: 80px;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+
+  ul.topnav li {
+    float: left;
+    font-size: 25px;
+  }
+
+  ul.topnav li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+  }
+
+  ul.topnav li a:hover:not(.active){
+    background-color: #111;
+  }
+  
+  ul.topnav li a.active {
+      background-color: #4CAF50;
+    }
+
+  ul.topnav li.right {float: right;}
+
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+ #one
+ {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 20px; 
+ }
+ .ingridiants
+ {
+    background-color: rgb(35, 48, 35); 
+    font-style: oblique;
+    line-height:60px ;
+    font-size: 30px;
+    border-radius: 25px;
+    margin: 10px;
+    color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ #two
+ {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 20px;
+ }
+ .steps
+ {
+    background-color: rgb(35, 48, 35); 
+    font-style: oblique;
+    line-height:60px ;
+    font-size: 30px;
+    border-radius: 25px;
+    margin: 10px;
+    color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+ }
+
+
+
+ #intro{
+     background-color: rgb(35, 48, 35);
+     font-size: x-large;
+     font-style: italic;
+     padding: 0px 20px;
+     color: white;
+     padding: 20px;
+     text-align: center;
+     margin-top: 5px;
+     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ h2{
+     font-size: 40px;
+ }
+
+ #cake
+ {
+     background-color: #4CAF50;
+     text-align: center;
+     font-size: 35px;
+     color: white;
+     padding: 1px;
+     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+ }
+
+ #learn
+ {
+     text-align: center;
+     font-size: x-large;
+     color: #111; 
+     
+     
+    }
+
+ 
+
+ .links
+ {
+     color: black;
+     line-height: 60px;
+     list-style-type: square;
+     margin-left: 30px;
+     font-size: 30px;
+     font-family: "Comic Sans MS", cursive, sans-serif
+     
+     
+     
+ }
+
+ 
+ h3{
+     font-size: 60px;
+     text-align: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ #mail
+ {
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+ }
+
+ 
+
+ #pic1
+ {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+   
+ }
+
+ #cake1
+ {
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+     
+ }
+
+ #love
+ {
+     margin-left: 20px;
+ }
+
+ .none
+ {
+     text-decoration: none;
+     color: #111;
+ }
+ .none:hover{
+     color: #4CAF50;
+     
+ }
+
+ #button1{
+     background-color: #4CAF50;
+     padding: 5px;
+     color: #f8f8f8;
+     border-radius: 5px;
+     box-shadow: 0 3px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+     margin-right: 13px;
+    }
+
+    #about{
+        background-color: #4CAF50;
+        color: #f8f8f8;
+        text-align: center;
+        padding-bottom: 20px;
+        box-shadow: 0 3px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+
+    }
